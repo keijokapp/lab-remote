@@ -1,0 +1,17 @@
+{
+	"listen": {
+		"port": 3000,
+		"address": "::"
+	}
+	"guacd": {
+		"host": "localhost",
+		"port": 4822
+	},
+	"virtualbox": "http://localhost:3001",
+	"rdp": {
+		"host": "rdp.example.com",
+		"user": "rdp-username",
+		"password": "rdp-password"
+	},
+	"labManager": "https://example.com/lab-manager"
+}

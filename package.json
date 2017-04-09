@@ -1,0 +1,26 @@
+{
+  "name": "lab-remote",
+  "version": "0.0.1",
+  "description": "Browser-based remote console provider for labs",
+  "main": "index.js",
+  "author": "Keijo Kapp <keijo.kapp@gmail.com>",
+  "license": "MIT",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "build": "babel lib --out-dir dist && babel static/app.jsx -o static/app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "guacamole-util": "github:keijokapp/guacamole-util",
+    "jsonschema": "^1.2.4",
+    "node-fetch": "^2.2.0",
+    "sd-notify": "^2.3.0",
+    "winston": "^3.0.0",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-react": "^6.24.1"
+  }
+}
